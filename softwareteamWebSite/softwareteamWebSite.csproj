@@ -289,7 +289,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\softwareteam - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Softwareteam - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\softwareteam - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Softwareteam - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
