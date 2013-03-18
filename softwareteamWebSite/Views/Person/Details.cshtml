@@ -22,6 +22,20 @@
     <div class="display-field">
         @Html.DisplayFor(model => model.LastName)
     </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mobile)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Mobile)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.HomePhone)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.HomePhone)
+    </div>
 </fieldset>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.PersonID }) |

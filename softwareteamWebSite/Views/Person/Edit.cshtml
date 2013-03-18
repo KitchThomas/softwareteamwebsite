@@ -30,6 +30,22 @@
             @Html.ValidationMessageFor(model => model.LastName)
         </div>
 
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Mobile)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Mobile)
+            @Html.ValidationMessageFor(model => model.Mobile)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HomePhone)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HomePhone)
+            @Html.ValidationMessageFor(model => model.HomePhone)
+        </div>
+
         <p>
             <input type="submit" value="Save" />
         </p>
