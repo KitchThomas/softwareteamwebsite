@@ -3,4 +3,7 @@
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\SQLEXPRESS;Initial Catalog=aspnet-softwareteamWebSite-20130318094523;Integrated Security=SSPI" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\tdong\\Documents\\Visual\ Studio\ 2010\\Projects\\softwareteamWebSite\\softwareteamWebSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
+  <parameter name="PersonContext-Web.config Connection String" description="PersonContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=rgryyr2abm.database.windows.net;Initial Catalog=softwareteam;Persist Security Info=True;User ID=thomas;Password=Easy2get" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\tdong\\Documents\\Visual\ Studio\ 2010\\Projects\\softwareteamWebSite\\softwareteamWebSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PersonContext']/@connectionString" />
+  </parameter>
 </parameters>

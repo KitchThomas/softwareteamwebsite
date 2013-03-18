@@ -10,7 +10,7 @@ namespace softwareteamWebSite.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Hello World";
+            ViewBag.Message = "Hello IMTS software team";
 
             return View();
         }
